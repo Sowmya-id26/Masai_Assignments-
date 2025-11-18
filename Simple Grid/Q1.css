@@ -1,0 +1,46 @@
+body{
+    padding: 40px;
+    background-color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+.box{
+    height: 120px;
+    display: flex;
+    align-items: center;
+    font-size: 28px;
+    color: white;
+    justify-content: center;
+    border-radius: 4px ;
+    font-weight: bold;
+
+}
+
+
+
+
+
+.grid{
+    
+   
+    width: 1000px;
+    display: grid;
+    gap: 10px;
+    margin: auto;
+    grid-template-columns: repeat(3, 1fr);
+
+}
+
+
+
+
+
+
+.box1{background-color:orange ;}
+.box2{background-color: aqua;}
+.box3{background-color: yellow;}
+.box4{background-color: purple;}
+.box5{background-color: green;}
+.box6{background-color: lightskyblue;}
+.box7{background-color: chocolate;}
+.box8{background-color: blue;}
+.box9{background-color: brown;}
